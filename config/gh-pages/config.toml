@@ -1,4 +1,4 @@
-baseURL = "/pre"
+baseURL = "/klaytn-pre-cypress-setup-workshop"
 languageCode = 'en-us'
 title = 'Klaytn CCO Onboarding - Pre Cypress'
 uglyurls = true
