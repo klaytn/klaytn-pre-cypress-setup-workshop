@@ -1,8 +1,8 @@
 ---
 title: "Init Genesis Block"
 date : 2022-09-20T17:44:42+09:00
-weight: 20
-pre: "<b>B. </b>"
+weight: 30
+pre: "<b>C. </b>"
 draft: false
 ---
 

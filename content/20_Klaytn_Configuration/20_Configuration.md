@@ -1,8 +1,8 @@
 ---
 title: "Klaytn Configuration"
 date : 2022-09-20T17:44:42+09:00
-weight: 10
-pre: "<b>A. </b>"
+weight: 20
+pre: "<b>B. </b>"
 draft: false
 ---
 {{< line_break >}}

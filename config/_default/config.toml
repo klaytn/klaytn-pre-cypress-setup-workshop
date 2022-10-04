@@ -1,4 +1,4 @@
-baseURL = '/klaytn-pre-cypress-setup-workshop'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Klaytn CCO Onboarding - Pre-Cypress'
 
