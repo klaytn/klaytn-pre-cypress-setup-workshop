@@ -28,7 +28,7 @@ draft: false
 
 ### 2. *(Only for PN)* Firewall configuration
 
-##### 1) For communication and multichannel between Klaytn CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ingress rule.
+##### 1) For communication and multichannel between Klaytn PN, allow TCP ```32323-32324``` with below IP addresses to your firewall ingress rule.
 ```vim
 54.180.180.202  
 54.180.18.176 
