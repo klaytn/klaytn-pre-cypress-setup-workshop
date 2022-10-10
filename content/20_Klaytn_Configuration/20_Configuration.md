@@ -23,7 +23,7 @@ Considering the fact that the size of Klaytn blockchain data is always increased
 $ mkdir -p /var/kcnd/data
 {{< /highlight >}}
 {{< highlight html >}}
-$ mkdir -p /var/kcnd/log
+$ mkdir -p /var/kcnd/logs
 {{< /highlight >}}
 
 >##### 2) PN
@@ -31,7 +31,7 @@ $ mkdir -p /var/kcnd/log
 $ mkdir -p /var/kpnd/data
 {{< /highlight >}}
 {{< highlight html >}}
-$ mkdir -p /var/kpnd/log
+$ mkdir -p /var/kpnd/logs
 {{< /highlight >}}
 
 {{< line_break >}}
@@ -65,7 +65,7 @@ Set the PN node in the same way.
 
 ```vim
 NETWORK=""
-NETWORK_ID=7207
+NETWORK_ID=7199
 DATA_DIR=/var/kcnd/data  # path where you created in #1
 LOG_DIR=/var/kcnd/logs # path where you created in #1
 NO_DISCOVER=0
@@ -75,7 +75,7 @@ REWARDBASE="" # ADD YOUR REWARDS ADDRESS GNNERATED BY KEYTOOL
 >##### 2)  Add configuration for PN
 ```vim
 NETWORK=""
-NETWORK_ID=7207
+NETWORK_ID=7199
 DATA_DIR=/var/kpnd/data  # path where you created in #1
 LOG_DIR=/var/kpnd/logs # path where you created in #1
 NO_DISCOVER=1
