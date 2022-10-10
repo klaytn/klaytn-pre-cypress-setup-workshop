@@ -12,7 +12,13 @@ draft: false
 > *Genesis file download : https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json*
 
 {{< highlight html >}}
-$ cp pre-cypress-genesis.json /var/kcnd/data/genesis.json
+##### For CN 
+$ curl -X GET https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json -o /var/kcnd/data/genesis.json 
+{{< /highlight >}}
+
+{{< highlight html >}}
+##### For PN 
+$ curl -X GET https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json -o /var/kpnd/data/genesis.json 
 {{< /highlight >}}
 
 
@@ -21,19 +27,20 @@ $ cp pre-cypress-genesis.json /var/kcnd/data/genesis.json
 ### 2. Init Genesis block
 ##### 1) CN configuration
 {{< highlight html >}}
-$ kcn --networkid 7207 init --datadir /var/kcnd/data genesis.json
+$ kcn --networkid 7199 init --datadir /var/kcnd/data genesis.json
 {{< /highlight >}}
 
 
 ##### 2) PN configuration
 {{< highlight html >}}
-$ kpn --networkid 7207 init --datadir /var/klaytn/kpnd/data genesis.json
+$ kpn --networkid 7199 init --datadir /var/kpnd/data genesis.json
 {{< /highlight >}}
 
 {{< line_break >}}
 
 ### 3. (ONLY PN) Create static-nodes.json and copy it under DATA directory
-> *example : /var/kcnd/data/nodekey*
+> *example : /var/kcnd/data/static-nodes.json
+> *We will give the details
 
 ```vim
 ** Generate static-nodes.json **
@@ -41,12 +48,12 @@ You have 1 CN and 2 PNs, each are cn1, pn1, pn2.
 1. static-nodes.json in pn1
    [
    "CN_KNI_ADDRESS@CN_INTERNAL_IP:PORT?discport=0&ntype=cn",
-   "PN2_KNI_ADDRESS@PN2_INTERNAL_IP:PORT?discport=0&ntype=pn"
+   "PN2_KNI_ADDRESS@Other_pn_1:PORT?discport=0&ntype=pn"
    ]
 2. static-nodes.json in pn2
    [
    "CN_KNI_ADDRESS@CN_INTERNAL_IP:PORT?discport=0&ntype=cn",
-   "PN1_KNI_ADDRESS@PN1_INTERNAL_IP:PORT?discport=0&ntype=pn"
+   "PN1_KNI_ADDRESS@Other_pn_2:PORT?discport=0&ntype=pn"
    ]
 ```
 
