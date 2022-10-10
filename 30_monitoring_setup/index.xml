@@ -2,6 +2,6 @@
 cat &amp;lt;&amp;lt;EOF | sudo tee /etc/yum.repos.d/influxdb.repo [influxdb] name = InfluxDB Repository - RHEL 7 baseurl = https://repos.influxdata.com/rhel/7/\$basearch/stable enabled = 1 gpgcheck = 1 gpgkey = https://repos.influxdata.com/influxdb.key EOF If you finish this step, please click the next button &amp;gt; on the right side of this page.</description></item><item><title>Telegraf Configuration</title><link>/klaytn-pre-cypress-setup-workshop/30_monitoring_setup/20_telegraf_configuration/</link><pubDate>Mon, 11 Jul 2022 15:43:06 +0900</pubDate><guid>/klaytn-pre-cypress-setup-workshop/30_monitoring_setup/20_telegraf_configuration/</guid><description>1. Enable monitoring in kcnd/kpnd Check the if below two options enabled
 /etc/kcnd/conf/kcnd.conf
 ... METRICS=1 PROMETHEUS=1 ... If two options enabled, You may check port 61001 is open.
-$ netstat -ntap | grep 61001 tcp 0 0 :::61001 :::* LISTEN 8989/kcn 2. Configure Telegraf service Create new telegraf configuration and add the following the configuration file might be located in
+$ netstat -ntap | grep 61001 tcp 0 0 :::61001 :::* LISTEN 8989/kcn 2. Configure Telegraf service Create new telegraf configuration file as klaytn.conf under below path and add the following the configuration
 /etc/telegraf/telegraf.d/
 Edit &amp;rsquo;nodetype&amp;rsquo;, &amp;lsquo;instance&amp;rsquo;, and &amp;lsquo;hostname&amp;rsquo; appropriately for each node</description></item></channel></rss>
