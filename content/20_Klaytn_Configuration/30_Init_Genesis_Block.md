@@ -13,12 +13,12 @@ draft: false
 
 {{< highlight html >}}
 ##### For CN 
-$ curl -X GET https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json -o /var/kcnd/data/genesis.json 
+$ curl -X GET curl -X GET https://packages.klaytn.net/pre-cypress/genesis.json -o /var/kcnd/data/genesis.json
 {{< /highlight >}}
 
 {{< highlight html >}}
 ##### For PN 
-$ curl -X GET https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json -o /var/kpnd/data/genesis.json 
+$ curl -X GET curl -X GET https://packages.klaytn.net/pre-cypress/genesis.json -o /var/kpnd/data/genesis.json
 {{< /highlight >}}
 
 
