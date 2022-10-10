@@ -28,8 +28,8 @@ tcp        0      0 :::61001        :::*       LISTEN      8989/kcn
 
 {{< line_break >}}
 ### 2. Configure Telegraf service
-Create new telegraf configuration and add the following
-the configuration file might be located in
+Create new telegraf configuration file as klaytn.conf under below path and add the following
+the configuration
 
 >*`/etc/telegraf/telegraf.d/`*
 
