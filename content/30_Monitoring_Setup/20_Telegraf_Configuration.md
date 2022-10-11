@@ -41,14 +41,14 @@ Edit 'nodetype', 'instance', and 'hostname' appropriately for each node
 # Change "cn" to "pn" for PN installation
 nodetype = "cn"
 
-# The CN/PN name (e.g. `example-cn`, `example-pn`)
+# The CN/PN name (e.g. `klaytn-cn`, `klaytn-pn-01`)
 instance = "<hostname>"
 
 
 
 [agent]
 
-# The CN/PN name (e.g. `example-cn`, `example-pn`)
+# The CN/PN name (e.g. `klaytn-cn`, `klaytn-pn-01`)
 hostname = "<hostname>"
 
 
