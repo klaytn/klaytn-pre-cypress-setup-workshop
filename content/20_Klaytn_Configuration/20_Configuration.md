@@ -34,8 +34,8 @@ $ mkdir -p /var/kpnd/logs
 {{< line_break >}}
 
 
-### 2. Install Nodekey - nodekey is your Private key what you generate with Klay Tool
-
+### 2. Install Nodekey
+Nodekey is your Private key what you generate with Klay Tool.
 ![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
 
 In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. {{< line_break >}}
