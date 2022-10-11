@@ -43,7 +43,7 @@ In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will cr
 If you have one, you need to put your `nodekey` into the  `data` directory. 
 
 {{< highlight html >}}
-$ mkdir -p /var/kcnd/data/nodekey
+$ vi /var/kcnd/data/nodekey
 {{< /highlight >}}
 {{< highlight html >}}
 $ cp nodekey /var/kcnd/data
