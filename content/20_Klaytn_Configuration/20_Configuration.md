@@ -37,7 +37,7 @@ $ mkdir -p /var/kpnd/logs
 {{< line_break >}}
 
 
-### 2. Install Node key
+### 2. Install Node key - nodekey is your Private key what you generate with Klay Tool
 
 In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. {{< line_break >}}
 If you have one, you need to put your `nodekey` into the  `data` directory. 
