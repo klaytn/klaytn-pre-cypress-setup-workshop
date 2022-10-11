@@ -7,12 +7,11 @@ draft: false
 ---
 {{< line_break >}}
 >The CN configuration is to create a data directory and set up several values in the configuration file.
-
 * Create the data/log directory.
 * Install node key.
 * Configure the CN(PN) with `kcnd.conf` (`kpnd.conf`).
-{{< line_break >}}
-{{< line_break >}}
+  {{< line_break >}}
+  {{< line_break >}}
 
 
 ### 1. Data,log Directory Creation
@@ -23,27 +22,25 @@ Considering the fact that the size of Klaytn blockchain data is always increased
 $ mkdir -p /var/kcnd/data
 {{< /highlight >}}
 {{< highlight html >}}
-$ mkdir -p /var/kcnd/log
+$ mkdir -p /var/kcnd/logs
 {{< /highlight >}}
-
 >##### 2) PN
 {{< highlight html >}}
 $ mkdir -p /var/kpnd/data
 {{< /highlight >}}
 {{< highlight html >}}
-$ mkdir -p /var/kpnd/log
+$ mkdir -p /var/kpnd/logs
 {{< /highlight >}}
-
 {{< line_break >}}
 
 
-### 2. Install Node key
+### 2. Install Node key - nodekey is your Private key what you generate with Klay Tool
 
 In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. {{< line_break >}}
-If you have one, you need to put your `nodekey` into the  `data` directory. 
+If you have one, you need to put your `nodekey` into the  `data` directory.
 
 {{< highlight html >}}
-$ mkdir -p /var/kcnd/data/nodekey
+$ vi /var/kcnd/data/nodekey
 {{< /highlight >}}
 {{< highlight html >}}
 $ cp nodekey /var/kcnd/data
@@ -55,17 +52,15 @@ Set the PN node in the same way.
 
 ### 3. Update the Configuration File
 >Configuration File Location:
-
 ##### For the archive distribution, the config directory location defaults to `$INSTALL_PATH/kcn-linux-amd64/conf/`.
 ##### For the package distribution, the config directory defaults to `/etc/kcnd/conf/`.
 
-{{< line_break >}} 
+{{< line_break >}}
 
 >##### 1) Add configuration for CN
-
 ```vim
 NETWORK=""
-NETWORK_ID=7207
+NETWORK_ID=7199
 DATA_DIR=/var/kcnd/data  # path where you created in #1
 LOG_DIR=/var/kcnd/logs # path where you created in #1
 NO_DISCOVER=0
@@ -75,13 +70,12 @@ REWARDBASE="" # ADD YOUR REWARDS ADDRESS GNNERATED BY KEYTOOL
 >##### 2)  Add configuration for PN
 ```vim
 NETWORK=""
-NETWORK_ID=7207
+NETWORK_ID=7199
 DATA_DIR=/var/kpnd/data  # path where you created in #1
 LOG_DIR=/var/kpnd/logs # path where you created in #1
 NO_DISCOVER=1
 BOOTNODES=""
 ```
-
 {{< line_break >}}
 {{< line_break >}}
 
