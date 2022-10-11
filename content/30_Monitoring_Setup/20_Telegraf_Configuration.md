@@ -66,7 +66,8 @@ urls = [ "http://localhost:61001/metrics" ]
 ```
 
 {{% notice note %}}
-The influxdb information for pre-cypress will be provided separately.
+Please find the Pre-cypress Dashboard as below URL. The Credentails will be provided separately.
+http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
 {{% /notice %}}
 
 
