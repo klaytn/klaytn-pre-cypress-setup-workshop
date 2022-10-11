@@ -14,7 +14,7 @@ draft: false
   {{< line_break >}}
 
 
-### 1. Data,log Directory Creation
+### 1. Data, log Directory Creation
 Considering the fact that the size of Klaytn blockchain data is always increased, it is recommended to use a big enough storage. You may need to create the directory on your desired path.
 
 >##### 1) CN

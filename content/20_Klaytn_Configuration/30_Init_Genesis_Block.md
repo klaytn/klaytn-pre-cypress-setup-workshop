@@ -43,11 +43,13 @@ $ kpn --networkid 7199 init --datadir /var/kpnd/data genesis.json
 ```vim
 ** Generate static-nodes.json **
 You have 1 CN and 2 PNs, each are cn1, pn1, pn2.
+
 1. static-nodes.json in pn1
    [
    "CN_KNI_ADDRESS@CN_INTERNAL_IP:PORT?discport=0&ntype=cn",
    "PN2_KNI_ADDRESS@Other_pn_1:PORT?discport=0&ntype=pn"
    ]
+   
 2. static-nodes.json in pn2
    [
    "CN_KNI_ADDRESS@CN_INTERNAL_IP:PORT?discport=0&ntype=cn",

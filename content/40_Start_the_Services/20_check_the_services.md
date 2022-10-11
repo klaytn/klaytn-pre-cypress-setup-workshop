@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-### 1. Watch the service log to confirm if your nodes are correctly joined.
+### 1. Watch the service log to confirm if your nodes are correctly joined
 
 {{% notice note %}}
 If the node is not a proposer at that block, and the consensus is successful, the node have executed(==validates) the block. In other words, a block is inserted.

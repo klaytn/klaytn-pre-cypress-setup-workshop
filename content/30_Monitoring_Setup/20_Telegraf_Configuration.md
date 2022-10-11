@@ -8,7 +8,7 @@ draft: false
 
 {{< line_break >}}
 ### 1. Enable monitoring in kcnd/kpnd
-Check the if below two options enabled.
+Check the if below two options enabled
 
 >*`/etc/kcnd/conf/kcnd.conf`*
 ```vim
@@ -27,12 +27,12 @@ tcp        0      0 :::61001        :::*       LISTEN      8989/kcn
 
 {{< line_break >}}
 ### 2. Configure Telegraf service
-Create new telegraf configuration file as `klaytn.conf` under below path and add the following
+Create new telegraf configuration file as klaytn.conf under below path and add the following
 the configuration.
 
 >*`/etc/telegraf/telegraf.d/`*
 
-Edit 'nodetype' , 'instance' , and 'hostname' appropriately for each node.
+Edit 'nodetype', 'instance', and 'hostname' appropriately for each node.
 
 ```vim
 [global_tags]
@@ -40,18 +40,22 @@ Edit 'nodetype' , 'instance' , and 'hostname' appropriately for each node.
 nodetype = "cn"
 # The CN/PN name (e.g. `klaytn-cn`, `klaytn-pn-01`)
 instance = "<hostname>"
+
 [agent]
 # The CN/PN name (e.g. `klaytn-cn`, `klaytn-pn-01`)
 hostname = "<hostname>"
+
 [outputs.influxdb]
 urls = [ "http://13.125.193.171:45560" ]
 database = "klaytn"
+
 [inputs.prometheus]
 urls = [ "http://localhost:61001/metrics" ]
 ```
 
 {{% notice note %}}
-Please find the Pre-cypress Dashboard as below URL. The Credentails will be provided separately.
+Please find the Pre-cypress Dashboard as below URL. The Credentials will be provided separately.
+{{< line_break >}}
 http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
 {{% /notice %}}
 

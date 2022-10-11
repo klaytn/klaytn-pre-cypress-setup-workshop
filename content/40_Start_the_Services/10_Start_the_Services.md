@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-### 1. Start the Klaytn service, if it is running.
+### 1. Start the Klaytn service, if it is running
 
 >##### For CN,
 {{< highlight html >}}
@@ -30,7 +30,7 @@ $ sudo <installation_path>/kcnd start
 $ sudo <installation_path>/kcnd status
 {{< /highlight >}}
 {{< line_break >}}
-### 2. Start the Telegraf service, if it is running.
+### 2. Start the Telegraf service, if it is running
 >##### For both CN and PN,
 {{< highlight html >}}
 $ sudo systemctl status telegraf
