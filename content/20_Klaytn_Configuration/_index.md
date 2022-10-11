@@ -10,7 +10,7 @@ pre = "<b>2. </b>"
 
 # Configuration
 
-#### In this chapter, you will set the Pre-cypress network configuration.
+#### In this chapter, you will set the Pre-Cypress network configuration.
 
 {{< line_break >}}
 {{< line_break >}}

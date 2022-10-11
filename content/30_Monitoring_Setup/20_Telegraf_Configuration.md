@@ -8,7 +8,7 @@ draft: false
 
 {{< line_break >}}
 ### 1. Enable monitoring in kcnd/kpnd
-Check the if below two options enabled
+Check the if below two options enabled.
 
 >*`/etc/kcnd/conf/kcnd.conf`*
 ```vim
@@ -55,10 +55,9 @@ urls = [ "http://localhost:61001/metrics" ]
 
 {{% notice note %}}
 Please find the Pre-cypress Dashboard as below URL. The Credentials will be provided separately.
-{{< line_break >}}
-http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
 {{% /notice %}}
 
+* http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
 
 {{< line_break >}}
 {{< line_break >}}

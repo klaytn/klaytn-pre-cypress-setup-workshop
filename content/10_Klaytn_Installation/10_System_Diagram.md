@@ -21,7 +21,7 @@ draft: false
 >##### So, You need to configure the firewall to allow ingress between nodes.
 
 * For communication and multichannel between CN, allow TCP `32323-32324` and UDP `32323` to your firewall ingress rule.
-* We will share CN node IPs for Pre-cypress configuration separately.
+* We will share CN node IPs for Pre-Cypress configuration separately.
 {{< line_break >}}
 {{< line_break >}}
 ![network](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/klaytn-2.png)

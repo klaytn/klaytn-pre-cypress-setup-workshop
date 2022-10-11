@@ -36,7 +36,7 @@ Do NOT alter the file structure or file name. If you change it, the node may not
 {{< line_break >}}
 
 #### Installation
->The installation is the uncompression of the downloaded package where you want to install the package.
+>The installation is decompress of the downloaded package where you want to install the package.
 
 {{< highlight html >}}
 $ tar zxf kcn-vX.X.X-linux-amd64.tar.gz
@@ -45,9 +45,11 @@ $ tar zxf kcn-baobab-vX.X.X-linux-amd64.tar.gz
 {{< /highlight >}}
 
 {{% notice note %}}
-it is recommended that the uncompressed directory kcn-linux-amd64/bin path should be added to the environment variable $PATH to run the kcn and kcnd globally. As an example,
+it is recommended that decompress directory kcn-linux-amd64/bin path should be added to the environment variable $PATH to run the kcn and kcnd globally.
 {{% /notice %}}
 {{< line_break >}}
+>As an example,
+
 {{< highlight html >}}
 $ export PATH=$PATH:~/downloaded/path/kcn-linux-amd64/bin
 {{< /highlight >}}
@@ -63,13 +65,13 @@ The other sections assume that the path is added to the variable.
 #### Install downloaded RPM
 >You can install the downloaded RPM file with the following yum command.
 
->##### 1) CN Installation
+##### 1) CN Installation
 {{< highlight html >}}
 $ yum install kcnd-vX.X.X.el7.x86_64.rpm
 or
 $ yum install kcnd-baobab-vX.X.X.el7.x86_64.rpm
 {{< /highlight >}}
->##### 2) PN Installation
+##### 2) PN Installation
 {{< highlight html >}}
 $ yum install kpnd-vX.X.X.el7.x86_64.rpm
 or
@@ -79,11 +81,12 @@ $ yum install kpnd-baobab-vX.X.X.el7.x86_64.rpm
 
 #### Install from Klaytn Yum Repo
 >Alternatively, you can install from the Klaytn Yum repo, run:
->##### 1) CN Installation
+
+##### 1) CN Installation
 {{< highlight html >}}
 sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kcnd
 {{< /highlight >}}
->##### 2) PN Installation
+##### 2) PN Installation
 {{< highlight html >}}
 sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kpnd
 {{< /highlight >}}

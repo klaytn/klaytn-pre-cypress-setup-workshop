@@ -9,12 +9,12 @@ draft: false
 {{< line_break >}}
 ### 1. Telegraf Installation
 >Telegraf Installation Guide (Amazon Linux 2 users, see below):
+
+* https://docs.influxdata.com/telegraf/latest/introduction/installation/
+
 {{< line_break >}}
-https://docs.influxdata.com/telegraf/latest/introduction/installation/
-{{< line_break >}}
-> {{< line_break >}}
-**Note for Amazon Linux 2**
-{{< line_break >}}
+
+>Note for Amazon Linux 2 {{< line_break >}}
 To install Telegraph on Amazon Linux 2, you may use InfluxData's RHEL 7 yum repo as follows:
 
 
