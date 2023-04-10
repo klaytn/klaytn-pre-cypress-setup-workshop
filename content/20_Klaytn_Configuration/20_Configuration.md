@@ -68,7 +68,7 @@ Set the PN node in the same way.
 ##### 1) Add configuration for CN
 ```vim
 NETWORK=""
-NETWORK_ID=7199
+NETWORK_ID=7188
 DATA_DIR=/var/kcnd/data  # path where you created in #1
 LOG_DIR=/var/kcnd/logs # path where you created in #1
 NO_DISCOVER=0
