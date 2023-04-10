@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 7199,
+    "chainId": 7188,
     "istanbulCompatibleBlock": 0,
     "londonCompatibleBlock": 0,
     "istanbul": {
