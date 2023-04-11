@@ -12,16 +12,16 @@ draft: false
 
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul region, USD/h) |
 | --- | --- | --- | --- | --- | --- | --- |
-| CN | c5.18xlarge | 72 | 144 | 3,000 (Minimum) | 3,000 (Minimum) | 3.456 |
-| PN | m5.8xlarge | 32 | 128 | 3,000 (Minimum) | 3,000 (Minimum) | 1.888 |
+| CN | m6i.8xlarge | 32 | 128 | 3,000 (Minimum) | 4,000 (Minimum) | 1.92 |
+| PN | m6i.4xlarge | 16 | 64 | 3,000 (Minimum) | 4,000 (Minimum) | 0.96 |
 
 {{< line_break >}}
 >Recommended Specification for Azure
 
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul Central, USD/h) |
 | --- | --- | --- | --- | --- |---|---|
-| CN | F72s v2 | 72 | 144 | P50 (4096) | 7500 | 3.456 |
-| PN | D32s v5 | 32 | 128 | P50 (4096) | 7500 | 1.625 |
+| CN | D32s v5 | 32 | 128 | P50 (4096) | 7500 | 1.625 |
+| PN | D16s v5 | 16 | 64 | P50 (4096) | 7500 | 0.8 |
 
 {{< line_break >}}
 {{< line_break >}}
