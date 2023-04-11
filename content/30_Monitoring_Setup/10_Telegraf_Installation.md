@@ -26,7 +26,7 @@ name = InfluxDB Repository - RHEL 7
 baseurl = https://repos.influxdata.com/rhel/7/\$basearch/stable
 enabled = 1
 gpgcheck = 1
-gpgkey = https://repos.influxdata.com/influxdb.key
+gpgkey = https://repos.influxdata.com/influxdata-archive_compat.key
 EOF
 ```
 
