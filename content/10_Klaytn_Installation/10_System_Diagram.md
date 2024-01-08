@@ -32,7 +32,7 @@ draft: false
 ---
 {{< line_break >}}
 *You can see the Klaytn Design more detailed on the page below.*
->##### https://docs.klaytn.foundation/klaytn/design/consensus-mechanism
+>##### https://docs.klaytn.foundation/docs/learn/consensus-mechanism/
 
 {{< line_break >}}
 {{< line_break >}}

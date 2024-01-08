@@ -107,8 +107,8 @@ kcnd.conf    |    /etc/kcnd/conf/kcnd.conf
 ---
 {{< line_break >}}
 *You can check the more details information on the page below.*
-* CN : <https://docs.klaytn.foundation/node/core-cell/installation-guide/consensus-node-setup/installation-guide>
-* PN : <https://docs.klaytn.foundation/node/core-cell/installation-guide/proxy-node-setup/installation-guide>
+* CN : <https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-consensus-nodes/>
+* PN : <https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-proxy-nodes/>
 
 {{< line_break >}}
 {{< line_break >}}

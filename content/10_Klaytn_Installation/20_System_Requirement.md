@@ -29,7 +29,7 @@ draft: false
 ---
 {{< line_break >}}
 *If you would like to check the detailed requirements or use an on-premise server, please refer to the link below.*
->https://docs.klaytn.foundation/node/core-cell/system-requirements
+>https://docs.klaytn.foundation/docs/nodes/core-cell/system-requirements/
 
 {{< line_break >}}
 {{< line_break >}}
