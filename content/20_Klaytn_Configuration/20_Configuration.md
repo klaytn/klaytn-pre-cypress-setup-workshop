@@ -90,8 +90,8 @@ BOOTNODES=""
 ---
 {{< line_break >}}
 *You can check the more information for installation on the page below.*
-* CN : https://docs.klaytn.foundation/node/core-cell/installation-guide/consensus-node-setup/configuration
-* PN : https://docs.klaytn.foundation/node/core-cell/installation-guide/proxy-node-setup/configuration
+* CN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-consensus-nodes/
+* PN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-proxy-nodes/
 
 {{< line_break >}}
 {{< line_break >}}

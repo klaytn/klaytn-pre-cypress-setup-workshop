@@ -66,7 +66,7 @@ Please find the Pre-cypress Dashboard as below URL. The Credentials will be prov
 {{< line_break >}}
 
 You can check the more details requirements on the page below.
-* https://docs.klaytn.foundation/node/core-cell/monitoring-setup
+* https://docs.klaytn.foundation/docs/nodes/core-cell/monitoring-setup/
 
 {{< line_break >}}
 {{< line_break >}}
