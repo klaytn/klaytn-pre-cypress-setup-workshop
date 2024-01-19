@@ -11,20 +11,20 @@ draft: false
 
 ##### 1) For communication and multichannel between klaytn CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
-18.182.114.118  
-18.176.151.47 
+61.109.239.176
+34.122.80.127
 54.249.171.20
-3.36.217.81
-3.36.246.241
+52.79.70.128
+84.32.23.1
 ```
 
 ##### 2) Additionally, it is required to allow UDP ```32323``` with the same IP addresses to your firewall ```ingress``` rule.
 ```vim
-18.182.114.118  
-18.176.151.47 
+61.109.239.176
+34.122.80.127
 54.249.171.20
-3.36.217.81
-3.36.246.241
+52.79.70.128
+84.32.23.1
 52.199.8.244
 ``` 
 
