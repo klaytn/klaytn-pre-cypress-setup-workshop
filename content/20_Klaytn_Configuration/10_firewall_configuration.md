@@ -15,6 +15,8 @@ draft: false
 34.122.80.127
 52.79.70.128
 84.32.23.1
+Your PN1 IP
+Your PN2 IP
 ```
 
 ##### 2) Additionally, it is required to allow UDP ```32323``` with the same IP addresses to your firewall ```ingress``` rule.
