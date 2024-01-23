@@ -12,7 +12,7 @@ draft: false
 ##### 1) For communication and multichannel between klaytn CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
 61.109.239.176
-34.122.80.127
+34.64.236.63
 52.79.70.128
 5.199.164.114
 Your PN1 IP
