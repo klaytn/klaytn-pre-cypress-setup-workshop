@@ -29,7 +29,7 @@ draft: false
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul Central, USD/h) |
 | --- | --- | --- | --- | --- |---|---|
 | CN | n2-standard-32 | 32 | 128 | 4,000 | 4,000 (Minimum) | 1.625 |
-| PN (with Live Pruning DB) | n2-standard-8 | 8 | 32 | 3,500 (Minimum) | 7500 | 0.508121 |
+| PN (with Live Pruning DB) | n2-standard-8 | 8 | 32 | 3,500 (Minimum) | 4000 | 0.508121 |
 
 {{< line_break >}}
 {{< line_break >}}
