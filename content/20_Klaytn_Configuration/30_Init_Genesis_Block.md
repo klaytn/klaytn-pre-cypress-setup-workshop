@@ -29,13 +29,13 @@ $ curl -X GET https://packages.klaytn.net/pre-cypress/genesis.json -o /var/kpnd/
 ### 2. Init Genesis block under DATA directory
 ##### 1) CN configuration
 {{< highlight html >}}
-$ kcn --networkid 7233 init --datadir /var/kcnd/data genesis.json
+$ kcn --networkid 7234 init --datadir /var/kcnd/data genesis.json
 {{< /highlight >}}
 
 
 ##### 2) PN configuration
 {{< highlight html >}}
-$ kpn --networkid 7233 init --datadir /var/kpnd/data genesis.json
+$ kpn --networkid 7234 init --datadir /var/kpnd/data genesis.json
 {{< /highlight >}}
 
 {{< line_break >}}
