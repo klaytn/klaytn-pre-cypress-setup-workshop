@@ -13,7 +13,7 @@ draft: false
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul region, USD/h) |
 | --- | --- | --- | --- | --- | --- | --- |
 | CN | m6i.8xlarge | 32 | 128 | 4,000 (Minimum) | 4,000 (Minimum) | 1.92 |
-| PN (with Live Pruning DB) | m6i.2xlarge  | 8 | 32 | 3,500 (Minimum) | 9,000 | 0.472 |
+| PN (with Live Pruning DB) | m6i.2xlarge  | 8 | 32 | 3,500 (Minimum) | 4,000 (Minimum) | 0.472 |
 
 {{< line_break >}}
 >Recommended Specification for Azure
