@@ -62,8 +62,21 @@ The other sections assume that the path is added to the variable.
 
 ### 2. RPM Distribution (RHEL/CentOS/Fedora)
 
+#### Install from Klaytn Yum Repo
+>You can install from the Klaytn Yum repo, run:
+
+##### 1) CN Installation
+{{< highlight html >}}
+sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kcnd
+{{< /highlight >}}
+##### 2) PN Installation
+{{< highlight html >}}
+sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kpnd
+{{< /highlight >}}
+{{< line_break >}}
+
 #### Install downloaded RPM
->You can install the downloaded RPM file with the following yum command.
+>Alternatively, you can install the downloaded RPM file with the following yum command.
 
 ##### 1) CN Installation
 {{< highlight html >}}
@@ -76,19 +89,6 @@ $ yum install kcnd-baobab-vX.X.X.el7.x86_64.rpm
 $ yum install kpnd-vX.X.X.el7.x86_64.rpm
 or
 $ yum install kpnd-baobab-vX.X.X.el7.x86_64.rpm
-{{< /highlight >}}
-{{< line_break >}}
-
-#### Install from Klaytn Yum Repo
->Alternatively, you can install from the Klaytn Yum repo, run:
-
-##### 1) CN Installation
-{{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kcnd
-{{< /highlight >}}
-##### 2) PN Installation
-{{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kpnd
 {{< /highlight >}}
 {{< line_break >}}
 

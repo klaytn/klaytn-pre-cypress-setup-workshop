@@ -12,8 +12,8 @@ draft: false
 
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul region, USD/h) |
 | --- | --- | --- | --- | --- | --- | --- |
-| CN | m6i.8xlarge | 32 | 128 | 3,000 (Minimum) | 4,000 (Minimum) | 1.92 |
-| PN | m6i.4xlarge | 16 | 64 | 3,000 (Minimum) | 4,000 (Minimum) | 0.96 |
+| CN | m6i.8xlarge | 32 | 128 | 4,000 (Minimum) | 4,000 (Minimum) | 1.92 |
+| PN (with Live Pruning DB) | m6i.2xlarge  | 8 | 32 | 3,500 (Minimum) | 4,000 (Minimum) | 0.472 |
 
 {{< line_break >}}
 >Recommended Specification for Azure
@@ -21,7 +21,15 @@ draft: false
 | Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul Central, USD/h) |
 | --- | --- | --- | --- | --- |---|---|
 | CN | D32s v5 | 32 | 128 | P50 (4096) | 7500 | 1.625 |
-| PN | D16s v5 | 16 | 64 | P50 (4096) | 7500 | 0.8 |
+| PN (with Live Pruning DB) | D8s v5 | 8 | 32 | P50 (4096) | 7500 | 0.472 |
+
+{{< line_break >}}
+>Recommended Specification for GCP
+
+| Node Type | Model | vCPU | Memory (GiB) | Storage size (GiB) | Storage speed (IOPS) | Price (Seoul Central, USD/h) |
+| --- | --- | --- | --- | --- |---|---|
+| CN | n2-standard-32 | 32 | 128 | 4,000 | 4,000 (Minimum) | 1.625 |
+| PN (with Live Pruning DB) | n2-standard-8 | 8 | 32 | 3,500 (Minimum) | 7500 | 0.508121 |
 
 {{< line_break >}}
 {{< line_break >}}
