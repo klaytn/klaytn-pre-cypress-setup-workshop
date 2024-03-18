@@ -2,7 +2,7 @@
 title: "Check the services"
 date: 2022-07-11T18:42:35+09:00
 weight: 20
-pre: "<b>B. </b>"
+pre: "<b>C. </b>"
 draft: false
 ---
 
