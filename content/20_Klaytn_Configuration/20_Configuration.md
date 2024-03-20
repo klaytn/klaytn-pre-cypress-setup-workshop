@@ -67,7 +67,7 @@ Set the PN node in the same way.
 
 ##### 1) Add configuration for CN
 ```vim
-NETWORK=""
+# NETWORK=""
 NETWORK_ID=7234
 DATA_DIR=/var/kcnd/data  # path where you created in #1
 LOG_DIR=/var/kcnd/logs # path where you created in #1
@@ -78,7 +78,7 @@ ADDITIONAL="--state.trie-cache-limit 5000 --state.live-pruning"
 ```
 ##### 2)  Add configuration for PN
 ```vim
-NETWORK=""
+# NETWORK=""
 NETWORK_ID=7234
 DATA_DIR=/var/kpnd/data  # path where you created in #1
 LOG_DIR=/var/kpnd/logs # path where you created in #1
