@@ -11,19 +11,20 @@ draft: false
 
 ##### 1) For communication and multichannel between klaytn CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
-61.109.238.31
-34.143.209.118
-61.109.238.127
-47.128.177.208
+other cco cn ip 1
+other cco cn ip 2
+other cco cn ip 3
+other cco cn ip 4
 Your PN1 IP
 Your PN2 IP
 ```
 
 ##### 2) Additionally, it is required to allow UDP ```32323``` with the same IP addresses to your firewall ```ingress``` rule.
 ```vim
-61.109.238.31
-34.143.209.118
-47.128.177.208
+other cco cn ip 1
+other cco cn ip 2
+other cco cn ip 3
+other cco cn ip 4
 52.199.8.244
 ``` 
 
