@@ -1,5 +1,5 @@
 ---
-title: "generate BLS key"
+title: "generate BLS key - Bughole Only"
 date: 2022-07-11T18:42:35+09:00
 weight: 20
 pre: "<b>B. </b>"
