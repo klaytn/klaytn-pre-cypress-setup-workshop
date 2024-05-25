@@ -43,7 +43,6 @@ Your PN1 IP
 47.237.2.159
 52.79.244.19
 52.199.8.244
-Your PN1 IP
 ``` 
 
 ##### 3) For communication, allow ```all traffic``` to your firewall ```egress``` rule.
