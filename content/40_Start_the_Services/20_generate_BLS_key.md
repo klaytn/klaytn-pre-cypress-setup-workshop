@@ -1,5 +1,5 @@
 ---
-title: "generate BLS key - Except Cosmostation, Delight, Goodgang Labs"
+title: "generate BLS key"
 date: 2022-07-11T18:42:35+09:00
 weight: 20
 pre: "<b>B. </b>"
@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-### 1. Generate BLS key on CN only
+### 1. Generate BLS key on CN only - Except Cosmostation, Delight, Goodgang Labs
 Go to Data_Dir where nodekey is
 
 {{< highlight html >}}

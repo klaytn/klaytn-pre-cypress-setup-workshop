@@ -24,7 +24,7 @@ draft: false
 35.213.163.233
 47.237.2.159
 52.79.244.19
-Your PN1 IP
+Your PN IP
 ```
 
 ##### 2) Additionally, it is required to allow UDP ```32323``` with the same IP addresses to your firewall ```ingress``` rule.
@@ -43,6 +43,7 @@ Your PN1 IP
 47.237.2.159
 52.79.244.19
 52.199.8.244
+Your PN IP
 ``` 
 
 ##### 3) For communication, allow ```all traffic``` to your firewall ```egress``` rule.
