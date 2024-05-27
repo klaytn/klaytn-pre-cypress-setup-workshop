@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-### 1. Generate BLS key on CN only - Except Cosmostation, Delight, Goodgang Labs
+### 1. Generate BLS key on CN only - Only for Bughole and Certik
 Go to Data_Dir where nodekey is
 
 {{< highlight html >}}
