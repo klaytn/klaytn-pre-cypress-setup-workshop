@@ -59,7 +59,7 @@ Set the PN node in the same way.
 {{< line_break >}}
 
 ### 3. Install BLS-Nodekey for CN only
-> Nodekey is your Private key what you generate with Klay Tool.
+> BLS-Nodekey is your Private key what you generate with Klay Tool.
 
 ![CN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
 
