@@ -58,7 +58,27 @@ Set the PN node in the same way.
 {{< line_break >}}
 {{< line_break >}}
 
-### 3. Update the Configuration File
+### 3. Install BLS-Nodekey for CN only
+> BLS-Nodekey is your Private key what you generate with Klay Tool.
+
+![CN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
+
+In order to operate a node, a `bls-nodekey` is required. The KCN binary will create a new one for you if you do not have it. {{< line_break >}}
+If you have one, you need to put your `bls-nodekey` into the `data` directory.
+
+
+{{< highlight html >}}
+$ vi /var/kcnd/data/bls-nodekey
+{{< /highlight >}}
+{{< highlight html >}}
+$ cp bls-nodekey /var/kcnd/data
+{{< /highlight >}}
+
+
+{{< line_break >}}
+{{< line_break >}}
+
+### 4. Update the Configuration File
 >Configuration File Location:
 ##### For the archive distribution, the config directory location defaults to `$INSTALL_PATH/kcn-linux-amd64/conf/`.
 ##### For the package distribution, the config directory defaults to `/etc/kcnd/conf/`.
