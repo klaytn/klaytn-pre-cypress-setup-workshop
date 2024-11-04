@@ -9,7 +9,7 @@ draft: false
 
 ### 1. *(Only for CN)* Firewall configuration
 
-##### 1) For communication and multichannel between klaytn CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
+##### 1) For communication and multichannel between kaia CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
 210.109.52.54
 210.109.52.222
@@ -57,7 +57,7 @@ IPv4          |    All traffic    |    All         |    All           |   0.0.0.
 
 ### 2. *(Only for PN)* Firewall configuration
 
-##### 1) For communication and multichannel between Klaytn PN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
+##### 1) For communication and multichannel between Kaia PN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
 0.0.0.0/0
 ```
@@ -79,7 +79,7 @@ IPv4          |    All traffic    |    All         |    All           |    0.0.0
 
 ---
 {{< line_break >}}
-*Please note that the above four IP addresses are attached to the Klaytn CNs.*
+*Please note that the above four IP addresses are attached to the Kaia CNs.*
 
 {{< line_break >}}
 {{< line_break >}}

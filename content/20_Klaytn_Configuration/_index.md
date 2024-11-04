@@ -1,5 +1,5 @@
 +++
-title = "Klaytn Configuration"
+title = "Kaia Configuration"
 date = 2022-09-20T17:44:42+09:00
 weight = 20
 chapter = true

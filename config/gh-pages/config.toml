@@ -1,6 +1,6 @@
 baseURL = "/klaytn-pre-cypress-setup-workshop"
 languageCode = 'en-us'
-title = 'Klaytn CCO Onboarding - Pre Cypress'
+title = 'Kaia CCO Onboarding - Pre Cypress'
 uglyurls = true
 canonifyURLs = true
 
@@ -17,7 +17,7 @@ home = ["HTML", "RSS", "JSON"]
 # See the config.toml file from this documentation site to have an example.
 editURL = ""
 # Author of the site, will be used in meta information
-author = "Klaytn DevOps team"
+author = "Kaia DevOps team"
 # Description of the site, will be used in meta information
 description = ""
 # Shows a checkmark for visited pages on the menu
@@ -65,12 +65,12 @@ url = "https://github.com/trakim/pre"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bookmark'></i> Klaytn Documentation"
+name = "<i class='fas fa-bookmark'></i> Kaia Documentation"
 identifier = "klaytndoc"
-url = "https://docs.klaytn.foundation/"
+url = "https://docs.kaia.io/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Klaytn Foundation"
-url = "https://klaytn.foundation/"
+name = "<i class='fas fa-bullhorn'></i> Kaia Foundation"
+url = "https://www.kaia.io/"
 weight = 30

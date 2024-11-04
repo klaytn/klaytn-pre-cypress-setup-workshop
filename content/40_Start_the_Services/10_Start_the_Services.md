@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-### 1. Start the Klaytn service, if it is running
+### 1. Start the Kaia service, if it is running
 {{< line_break >}}
 ##### 1) For CN
 {{< highlight html >}}

@@ -62,8 +62,8 @@ The other sections assume that the path is added to the variable.
 
 ### 2. RPM Distribution (RHEL/CentOS/Fedora)
 
-#### Install from Klaytn Yum Repo
->You can install from the Klaytn Yum repo, run:
+#### Install from Kaia Yum Repo
+>You can install from the Kaia Yum repo, run:
 
 ##### 1) CN Installation
 {{< highlight html >}}
@@ -107,8 +107,8 @@ kcnd.conf    |    /etc/kcnd/conf/kcnd.conf
 ---
 {{< line_break >}}
 *You can check the more details information on the page below.*
-* CN : <https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-consensus-nodes/>
-* PN : <https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-proxy-nodes/>
+* CN : <https://docs.kaia.io/docs/nodes/core-cell/install/install-consensus-nodes/>
+* PN : <https://docs.kaia.io/docs/nodes/core-cell/install/install-proxy-nodes/>
 
 {{< line_break >}}
 {{< line_break >}}

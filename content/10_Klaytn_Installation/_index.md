@@ -1,5 +1,5 @@
 +++
-title = "Klaytn Installation"
+title = "Kaia Installation"
 date = 2022-09-20T17:44:42+09:00
 weight = 10
 chapter = true
@@ -9,7 +9,7 @@ draft = false
 
 ### Chapter 1
 
-# Klaytn Installation 
+# Kaia Installation 
 #### Package installation for node configuration are covered in this chapter.
 
 {{< line_break >}}

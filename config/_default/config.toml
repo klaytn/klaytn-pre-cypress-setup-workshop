@@ -1,6 +1,6 @@
-baseURL = '/klaytn-pre-cypress-setup-workshop'
+baseURL = '/kaia-pre-mainnet-setup-workshop'
 languageCode = 'en-us'
-title = 'Klaytn CCO Onboarding - Pre-Cypress'
+title = 'Kaia CCO Onboarding - Pre-Mainnet'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
@@ -16,7 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 editURL = ""
 # Author of the site, will be used in meta information
-author = "Klaytn DevOps team"
+author = "Kaia DevOps team"
 # Description of the site, will be used in meta information
 description = ""
 # Shows a checkmark for visited pages on the menu
@@ -46,7 +46,7 @@ disableNextPrev = false
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
 # Change default color scheme with a variant one. Can be "red", "blue", "green".
-themeVariant = "klaytn"
+themeVariant = "kaia"
 # Provide a list of custom css files to load relative from the `static/` folder in the site root.
 custom_css = ["css/foo.css", "css/bar.css"]
 # Change the title separator. Default to "::".
@@ -60,16 +60,16 @@ landingPageName = "<i class='fas fa-home'></i>Home"
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/klaytn/klaytn"
+url = "https://github.com/kaiachain/kaia"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bookmark'></i> Klaytn Documentation"
-identifier = "klaytndoc"
-url = "https://docs.klaytn.foundation/"
+name = "<i class='fas fa-bookmark'></i> Kaia Documentation"
+identifier = "kaiadoc"
+url = "https://docs.kaia.io/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Klaytn Foundation"
-url = "https://klaytn.foundation/"
+name = "<i class='fas fa-bullhorn'></i> Kaia Foundation"
+url = "https://www.kaia.io/"
 weight = 30

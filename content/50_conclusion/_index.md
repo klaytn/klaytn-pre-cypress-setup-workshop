@@ -7,7 +7,8 @@ pre = "<b>5. </b>"
 +++
 
 
-![Klaytn_Logo](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/Logo-1.png)
+<img src="../../static/images/Logo-1.png">
+<!-- ![Kaia_Logo](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/Logo-1.png) -->
 {{< line_break >}}
 {{< line_break >}}
 ### Congratulations!!

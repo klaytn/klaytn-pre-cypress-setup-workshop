@@ -11,7 +11,8 @@ draft: false
 ### 1. CCN Diagram 
 >##### CCN consists of one CN node and two PN nodes.
 {{< line_break >}}
-![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/klaytn-1.png)
+<img src="../../static/images/klaytn-1.png">
+<!-- ![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/klaytn-1.png) -->
 
 {{< line_break >}}
 {{< line_break >}}
@@ -24,14 +25,15 @@ draft: false
 * We will share CN node IPs for Pre-Cypress configuration separately.
 {{< line_break >}}
 {{< line_break >}}
-![network](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/klaytn-2.png)
+<img src="../../static/images/klaytn-2.png">
+<!-- ![network](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/klaytn-2.png) -->
 
 {{< line_break >}}
 {{< line_break >}}
 
 ---
 {{< line_break >}}
-*You can see the Klaytn Design more detailed on the page below.*
+*You can see the Kaia Design more detailed on the page below.*
 >##### https://docs.kaia.io/learn/consensus-mechanism/
 
 {{< line_break >}}

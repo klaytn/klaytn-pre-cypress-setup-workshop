@@ -1,5 +1,5 @@
 ---
-title: "Klaytn Configuration"
+title: "Kaia Configuration"
 date : 2022-09-20T17:44:42+09:00
 weight: 20
 pre: "<b>B. </b>"
@@ -15,7 +15,7 @@ draft: false
 
 
 ### 1. Data, Log Directory Creation
-Considering the fact that the size of Klaytn blockchain data is always increased. {{< line_break >}}
+Considering the fact that the size of Kaia blockchain data is always increased. {{< line_break >}}
 It is recommended to use a big enough storage. You may need to create the directory on your desired path.
 
 {{< line_break >}}
@@ -41,7 +41,8 @@ $ mkdir -p /var/kpnd/logs
 ### 2. Install Nodekey
 > Nodekey is your Private key what you generate with Klay Tool.
 
-![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
+<img src="../../static/images/nodekey.png">
+<!-- ![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png) -->
 
 In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. {{< line_break >}}
 If you have one, you need to put your `nodekey` into the `data` directory.
@@ -61,7 +62,8 @@ Set the PN node in the same way.
 ### 3. Install BLS-Nodekey for CN only
 > BLS-Nodekey is your Private key what you generate with Klay Tool.
 
-![CN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
+<img src="../../static/images/nodekey.png">
+<!-- ![CN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png) -->
 
 In order to operate a node, a `bls-nodekey` is required. The KCN binary will create a new one for you if you do not have it. {{< line_break >}}
 If you have one, you need to put your `bls-nodekey` into the `data` directory.
@@ -112,8 +114,8 @@ ADDITIONAL="--state.trie-cache-limit 5000 --state.live-pruning"
 ---
 {{< line_break >}}
 *You can check the more information for installation on the page below.*
-* CN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-consensus-nodes/
-* PN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-proxy-nodes/
+* CN : https://docs.kaia.io/docs/nodes/core-cell/install/install-consensus-nodes/
+* PN : https://docs.kaia.io/docs/nodes/core-cell/install/install-proxy-nodes/
 
 {{< line_break >}}
 {{< line_break >}}
