@@ -1,5 +1,5 @@
 # baseURL = 'https://example.org/'
-baseURL = '/kaia-pre-mainnet-setup-workshop'
+baseURL = '/klaytn-pre-mainnet-setup-workshop'
 
 languageCode = 'en-us'
 title = 'Kaia CCO Onboarding - Pre-Mainnet'
