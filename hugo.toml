@@ -1,20 +1,13 @@
+# baseURL = 'https://example.org/'
 baseURL = '/kaia-pre-mainnet-setup-workshop'
+
 languageCode = 'en-us'
 title = 'Kaia CCO Onboarding - Pre-Mainnet'
 
-# Change the default theme to be use when building the site with Hugo
-theme = "hugo-theme-learn"
-
-# For search functionality
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
+theme = 'hugo-theme-relearn'
 
 [params]
-# Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
-# Useful to give opportunity to people to create merge request for your doc.
-# See the config.toml file from this documentation site to have an example.
-
-editURL = ""
+themeVariant = 'kaia'
 # Author of the site, will be used in meta information
 author = "Kaia DevOps team"
 # Description of the site, will be used in meta information
@@ -45,15 +38,11 @@ customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
 disableNextPrev = false
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
-# Change default color scheme with a variant one. Can be "red", "blue", "green".
-themeVariant = "kaia"
-# Provide a list of custom css files to load relative from the `static/` folder in the site root.
-custom_css = ["css/foo.css", "css/bar.css"]
 # Change the title separator. Default to "::".
 titleSeparator = "-"
 
-[Lanugages]
-[Lanugages.en]
+[lanugages]
+[lanugages.en]
 landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i>Home"
 
@@ -70,6 +59,6 @@ url = "https://docs.kaia.io/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Kaia Foundation"
+name = "<i class='fas fa-bullhorn'></i> Kaia DLT Foundation"
 url = "https://www.kaia.io/"
 weight = 30
