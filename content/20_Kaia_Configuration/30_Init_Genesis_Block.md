@@ -6,39 +6,39 @@ pre: "<b>C. </b>"
 draft: false
 ---
 
-{{< line_break >}}
+&nbsp; 
 ### 0.  Please, execute `sudo -i` before this progress 
-{{< line_break >}}
+&nbsp; 
 ### 1. Copy genesis.json under DATA directory
 
-> *Genesis file download : https://github.com/klaytn/klaytn-pre-cypress-setup-workshop/blob/main/genesis/pre-cypress-genesis.json*
+> *Genesis file download : https://github.com/kaia.ios-setup-workshop/blob/main/genesis/pre-cypress-genesis.json*
 
 {{< highlight html >}}
 ## For CN
-$ curl -X GET https://packages.klaytn.net/pre-cypress/genesis.json -o /var/kcnd/data/genesis.json
+$ curl -X GET https://packages.kaia.iopress/genesis.json -o /var/kcnd/data/genesis.json
 {{< /highlight >}}
 
 {{< highlight html >}}
 ## For PN
-$ curl -X GET https://packages.klaytn.net/pre-cypress/genesis.json -o /var/kpnd/data/genesis.json
+$ curl -X GET https://packages.kaia.iopress/genesis.json -o /var/kpnd/data/genesis.json
 {{< /highlight >}}
 
 
-{{< line_break >}}
+&nbsp; 
 
 ### 2. Init Genesis block under DATA directory
-##### 1) CN configuration
+###### 1) CN configuration
 {{< highlight html >}}
 $ kcn --networkid 6337 init --datadir /var/kcnd/data genesis.json
 {{< /highlight >}}
 
 
-##### 2) PN configuration
+###### 2) PN configuration
 {{< highlight html >}}
 $ kpn --networkid 6337 init --datadir /var/kpnd/data genesis.json
 {{< /highlight >}}
 
-{{< line_break >}}
+&nbsp; 
 
 ### 3. (ONLY PN) Create static-nodes.json and copy it under DATA directory
 > example : /var/kpnd/data/static-nodes.json (* We will give the details.)
@@ -54,17 +54,19 @@ You have 1 CN and 1 PN, each are cn1, pn1.
 
 ```
 
-{{< line_break >}}
-{{< line_break >}}
+&nbsp; 
+&nbsp; 
 
 
 ---
-{{< line_break >}}
-*You can check the more information for installation on the page below.*
-* CN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-consensus-nodes/#configuration-
-* PN : https://docs.klaytn.foundation/docs/nodes/core-cell/install/install-proxy-nodes/#configuration-
+&nbsp; 
 
-{{< line_break >}}
-{{< line_break >}}
-{{< line_break >}}
+*You can check the more information for installation on the page below.*
+* CN : https://docs.kaia.io/docs/nodes/core-cell/install/install-consensus-nodes/#configuration-
+* PN : https://docs.kaia.io/docs/nodes/core-cell/install/install-proxy-nodes/#configuration-
+
+&nbsp; 
+&nbsp; 
+&nbsp; 
+
 If you finish this step, please click the next button ```>``` on the right side of this page.

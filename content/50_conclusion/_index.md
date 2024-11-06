@@ -1,18 +1,19 @@
 +++
 title = "Conclusion"
 date = 2022-07-11T18:51:05+09:00
-weight = 50
-chapter = true
+type = "chapter"
+weight = 5
 pre = "<b>5. </b>"
 +++
 
+![Kaia_Logo](/images/Logo-1.png)
 
-![Klaytn_Logo](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/Logo-1.png)
-{{< line_break >}}
-{{< line_break >}}
+&nbsp; 
+&nbsp; 
+
 ### Congratulations!!
-{{< line_break >}}
-### Now, you are playing in the Pre-Cypress network.
+&nbsp; 
+### Now, you are playing in the Pre-Mainnet network.
 
 
 

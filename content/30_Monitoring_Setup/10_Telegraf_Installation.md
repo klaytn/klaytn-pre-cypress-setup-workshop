@@ -6,16 +6,18 @@ pre: "<b>A. </b>"
 draft: false
 ---
 
-{{< line_break >}}
+&nbsp; 
+
 ### 1. Telegraf Installation
 >Telegraf Installation Guide (Amazon Linux 2 users, see below):
 
 * https://docs.influxdata.com/telegraf/latest/introduction/installation/
 
-{{< line_break >}}
+&nbsp; 
 
->Note for Amazon Linux 2 {{< line_break >}}
+{{% notice note %}}
 To install Telegraph on Amazon Linux 2, you may use InfluxData's RHEL 7 yum repo as follows:
+{{% /notice %}}
 
 
 ```vim
@@ -31,9 +33,10 @@ EOF
 ```
 
 
-{{< line_break >}}
-{{< line_break >}}
-{{< line_break >}}
+&nbsp; 
+&nbsp; 
+&nbsp; 
+
 If you finish this step, please click the next button ```>``` on the right side of this page.
 
 

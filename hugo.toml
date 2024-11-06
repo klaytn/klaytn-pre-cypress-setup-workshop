@@ -1,23 +1,15 @@
-baseURL = "/klaytn-pre-cypress-setup-workshop"
+# baseURL = 'https://example.org/'
+baseURL = '/kaia-pre-mainnet-setup-workshop'
+
 languageCode = 'en-us'
-title = 'Klaytn CCO Onboarding - Pre Cypress'
-uglyurls = true
-canonifyURLs = true
+title = 'Kaia CCO Onboarding - Pre-Mainnet'
 
-# Change the default theme to be use when building the site with Hugo
-theme = "hugo-theme-learn"
-
-# For search functionality
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+theme = 'hugo-theme-relearn'
 
 [params]
-# Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
-# Useful to give opportunity to people to create merge request for your doc.
-# See the config.toml file from this documentation site to have an example.
-editURL = ""
+themeVariant = 'kaia'
 # Author of the site, will be used in meta information
-author = "Klaytn DevOps team"
+author = "Kaia DevOps team"
 # Description of the site, will be used in meta information
 description = ""
 # Shows a checkmark for visited pages on the menu
@@ -46,31 +38,27 @@ customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
 disableNextPrev = false
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
-# Change default color scheme with a variant one. Can be "red", "blue", "green".
-themeVariant = "klaytn"
-# Provide a list of custom css files to load relative from the `static/` folder in the site root.
-custom_css = ["css/foo.css", "css/bar.css"]
 # Change the title separator. Default to "::".
 titleSeparator = "-"
 
-[Lanugages]
-[Lanugages.en]
+[lanugages]
+[lanugages.en]
 landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i>Home"
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-github'></i> Workshop Github repo"
+name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/trakim/pre"
+url = "https://github.com/kaiachain/kaia"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bookmark'></i> Klaytn Documentation"
-identifier = "klaytndoc"
-url = "https://docs.klaytn.foundation/"
+name = "<i class='fas fa-bookmark'></i> Kaia Documentation"
+identifier = "kaiadoc"
+url = "https://docs.kaia.io/"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Klaytn Foundation"
-url = "https://klaytn.foundation/"
+name = "<i class='fas fa-bullhorn'></i> Kaia DLT Foundation"
+url = "https://www.kaia.io/"
 weight = 30
