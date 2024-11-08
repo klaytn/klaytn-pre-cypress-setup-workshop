@@ -55,7 +55,7 @@ urls = [ "http://localhost:61001/metrics" ]
 ```
 
 {{% notice note %}}
-Please find the Pre-mainnet Dashboard as below URL. The Credentials will be provided separately.
+Please find the Private Network Dashboard as below URL. The Credentials will be provided separately.
 {{% /notice %}}
 
 * http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
@@ -67,7 +67,7 @@ Please find the Pre-mainnet Dashboard as below URL. The Credentials will be prov
 {{< line_break >}}
 
 You can check the more details requirements on the page below.
-* https://docs.klaytn.foundation/docs/nodes/core-cell/monitoring-setup/
+* https://docs.kaia.io/nodes/core-cell/monitoring-setup/
 
 {{< line_break >}}
 {{< line_break >}}

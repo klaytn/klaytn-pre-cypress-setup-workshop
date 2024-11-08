@@ -1,4 +1,4 @@
-# Kaia Workshop - Pre Mainnet Setup
+# Kaia Workshop - Private Network Setup
 
 <img src="./static/images/Kaia-docs.png">
 <!-- ![Kaia Docs](/images/Kaia-docs.png) -->
@@ -45,7 +45,8 @@ Thank you for your interest in contributing to Kaia Workshop. Kaia Workshop is a
 ├── layouts
 ├── resources
 ├── static
-└── themes
+├── themes
+└── hugo.toml
 ```
 2. Labaeling - [issue|typo|update|new]
 3. Branch Naming when PR - hubo/update-3-b, hugo/new-3-c 
