@@ -27,7 +27,8 @@ send 'bls-publicinfo-0x***********.json' file via slack thread
 {{< line_break >}}
 
 You can check the more details requirements on the page below.
-* https://klaytn.foundation/bls-kip-113-114/
+* https://medium.com/klaytn/understanding-bls-signatures-kip-113-and-kip-114-141f5de7624d
+* https://kips.kaia.io/KIPs/kip-113
 
 {{< line_break >}}
 {{< line_break >}}

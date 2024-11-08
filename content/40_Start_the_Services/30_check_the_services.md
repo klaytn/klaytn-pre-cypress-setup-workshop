@@ -32,7 +32,7 @@ INFO Inserted a new block number=14 hash=13cbfc…f007fc txs=0 gas=0 elapsed=793
 {{< line_break >}}
 
 You can check the more details requirements on the page below.
-* https://docs.klaytn.foundation/docs/misc/operation/node-log/#info-logs
+* https://docs.kaia.io/misc/operation/node-log/#info-logs
 
 {{< line_break >}}
 {{< line_break >}}
