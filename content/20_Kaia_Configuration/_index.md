@@ -6,10 +6,10 @@ weight = 2
 pre = "<b>2. </b>"
 +++
 
-#### In this chapter, you will set the Pre-Mainnet network configuration.
+#### In this chapter, you will set the Private Network configuration.
 
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 Please click the next button ```>``` on the right side of this page.

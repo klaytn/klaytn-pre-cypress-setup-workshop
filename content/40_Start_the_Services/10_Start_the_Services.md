@@ -6,9 +6,9 @@ pre: "<b>A. </b>"
 draft: false
 ---
 
-&nbsp; 
+{{< line_break >}}
 ### 1. Start the Kaia service, if it is running
-&nbsp; 
+{{< line_break >}}
 ###### 1) For CN
 {{< highlight html >}}
 $ sudo systemctl status kcnd
@@ -29,7 +29,7 @@ $ sudo <installation_path>/kcnd status
 $ sudo <installation_path>/kcnd start
 $ sudo <installation_path>/kcnd status
 {{< /highlight >}}
-&nbsp; 
+{{< line_break >}}
 ### 2. Start the Telegraf service, if it is running
 >###### For both CN and PN
 {{< highlight html >}}
@@ -39,11 +39,11 @@ $ sudo systemctl status telegraf
 {{< /highlight >}}
 
 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ---
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 If you finish this step, please click the next button ```>``` on the right side of this page.

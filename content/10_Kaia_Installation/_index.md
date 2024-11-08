@@ -9,9 +9,9 @@ draft = false
 
 #### Package installation for node configuration are covered in this chapter.
   
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 Please click the next button ```>``` on the right side of this page.
 

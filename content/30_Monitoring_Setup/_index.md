@@ -8,8 +8,8 @@ pre = "<b>3. </b>"
 
 #### Install telegraf for monitoring.
 
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 Please click the next button ```>``` on the right side of this page.
