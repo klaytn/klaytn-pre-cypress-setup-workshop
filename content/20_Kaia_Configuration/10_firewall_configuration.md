@@ -5,7 +5,7 @@ weight: 10
 pre: "<b>A. </b>"
 draft: false
 ---
-&nbsp; 
+{{< line_break >}}
 
 ### 1. *(Only for CN)* Firewall configuration
 
@@ -53,7 +53,7 @@ IP version    |    Type           |    Protocol    |    Port range    |   Destin
 IPv4          |    All traffic    |    All         |    All           |   0.0.0.0/0
 ``` 
 
-&nbsp; 
+{{< line_break >}}
 
 ### 2. *(Only for PN)* Firewall configuration
 
@@ -74,16 +74,16 @@ IP version    |    Type           |    Protocol    |    Port range    |    Desti
 IPv4          |    All traffic    |    All         |    All           |    0.0.0.0/0
 ``` 
 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ---
-&nbsp; 
+{{< line_break >}}
 
 *Please note that the above four IP addresses are attached to the Kaia CNs.*
 
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 If you finish this step, please click the next button ```>``` on the right side of this page.

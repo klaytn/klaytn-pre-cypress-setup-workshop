@@ -6,7 +6,7 @@ pre: "<b>B. </b>"
 draft: false
 ---
 
-&nbsp; 
+{{< line_break >}}
 
 ### 1. Enable monitoring in kcnd/kpnd
 Check the if below two options enabled.
@@ -26,7 +26,7 @@ $ netstat -ntap | grep 61001
 tcp        0      0 :::61001        :::*       LISTEN      8989/kcn
 {{< /highlight >}}
 
-&nbsp; 
+{{< line_break >}}
 ### 2. Configure Telegraf service
 Create new telegraf configuration file as klaytn.conf under below path and add the following
 the configuration.
@@ -60,17 +60,17 @@ Please find the Pre-mainnet Dashboard as below URL. The Credentials will be prov
 
 * http://13.125.193.171:3000/d/K2aqGNDZz/dashboardcco?orgId=1&refresh=10s
 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ---
-&nbsp; 
+{{< line_break >}}
 
 You can check the more details requirements on the page below.
 * https://docs.klaytn.foundation/docs/nodes/core-cell/monitoring-setup/
 
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 If you finish this step, please click the next button ```>``` on the right side of this page.

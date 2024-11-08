@@ -1,9 +1,10 @@
-baseURL = '/kaia-pre-mainnet-setup-workshop'
+baseURL = '/'
 
 languageCode = 'en-us'
-title = 'Kaia CCO Onboarding - Pre-Mainnet'
+title = 'Kaia CCO Onboarding - Private Network'
 
 theme = 'hugo-theme-relearn'
+canonifyURLs = true
 
 [params]
 themeVariant = 'kaia'

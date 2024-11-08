@@ -5,13 +5,13 @@ weight: 20
 pre: "<b>B. </b>"
 draft: false
 ---
-&nbsp; 
+{{< line_break >}}
 >The CN configuration is to create a data directory and set up several values in the configuration file.
 * Create the data/log directory.
 * Install node key.
 * Configure the CN(PN) with `kcnd.conf` (`kpnd.conf`).
-  &nbsp; 
-  &nbsp; 
+  {{< line_break >}}
+  {{< line_break >}}
 
 
 ### 1. Data, Log Directory Creation
@@ -19,7 +19,7 @@ Considering the fact that the size of Kaia blockchain data is always increased. 
 
 It is recommended to use a big enough storage. You may need to create the directory on your desired path.
 
-&nbsp; 
+{{< line_break >}}
 
 ###### 1) CN
 {{< highlight html >}}
@@ -36,15 +36,15 @@ $ mkdir -p /var/kpnd/data
 {{< highlight html >}}
 $ mkdir -p /var/kpnd/logs
 {{< /highlight >}}
-&nbsp; 
+{{< line_break >}}
 
 
 ### 2. Install Nodekey
 > Nodekey is your Private key what you generate with Klay Tool.
 
-![CCN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
+![CCN](/images/nodekey.png)
 
-In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. &nbsp; 
+In order to operate a node, a `nodekey` is required. The KCN(KPN) binary will create a new one for you if you do not have it. {{< line_break >}}
 
 If you have one, you need to put your `nodekey` into the `data` directory.
 
@@ -57,15 +57,15 @@ $ cp nodekey /var/kcnd/data
 {{< /highlight >}}
 Set the PN node in the same way.
 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ### 3. Install BLS-Nodekey for CN only
 > BLS-Nodekey is your Private key what you generate with Klay Tool.
 
-![CN](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/nodekey.png)
+![CN](/images/nodekey.png)
 
-In order to operate a node, a `bls-nodekey` is required. The KCN binary will create a new one for you if you do not have it. &nbsp; 
+In order to operate a node, a `bls-nodekey` is required. The KCN binary will create a new one for you if you do not have it. {{< line_break >}}
 
 If you have one, you need to put your `bls-nodekey` into the `data` directory.
 
@@ -78,15 +78,15 @@ $ cp bls-nodekey /var/kcnd/data
 {{< /highlight >}}
 
 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ### 4. Update the Configuration File
 >Configuration File Location:
 ###### For the archive distribution, the config directory location defaults to `$INSTALL_PATH/kcn-linux-amd64/conf/`.
 ###### For the package distribution, the config directory defaults to `/etc/kcnd/conf/`.
 
-&nbsp; 
+{{< line_break >}}
 
 ###### 1) Add configuration for CN
 ```vim
@@ -109,18 +109,18 @@ NO_DISCOVER=1
 BOOTNODES=""
 ADDITIONAL="--state.trie-cache-limit 5000 --state.live-pruning"
 ```
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
 
 ---
-&nbsp; 
+{{< line_break >}}
 
 *You can check the more information for installation on the page below.*
 * CN : https://docs.kaia.io/docs/nodes/core-cell/install/install-consensus-nodes/
 * PN : https://docs.kaia.io/docs/nodes/core-cell/install/install-proxy-nodes/
 
-&nbsp; 
-&nbsp; 
-&nbsp; 
+{{< line_break >}}
+{{< line_break >}}
+{{< line_break >}}
 
 If you finish this step, please click the next button ```>``` on the right side of this page.

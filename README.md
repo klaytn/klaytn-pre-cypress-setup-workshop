@@ -1,7 +1,7 @@
 # Kaia Workshop - Pre Mainnet Setup
 
 <img src="./static/images/Kaia-docs.png">
-<!-- ![Kaia Docs](https://raw.githubusercontent.com/klaytn/klaytn-pre-cypress-setup-workshop/main/static/images/Kaia-docs.png) -->
+<!-- ![Kaia Docs](/images/Kaia-docs.png) -->
 
 ## Index
   - [Overview](#overview) 
@@ -38,7 +38,8 @@ Thank you for your interest in contributing to Kaia Workshop. Kaia Workshop is a
 .
 ├── README.md
 ├── archetypes
-├── config
+├── assets
+├── config    ====> deprecated
 ├── content    ====> Where contents can be updated.(Markdown)
 ├── data
 ├── layouts
